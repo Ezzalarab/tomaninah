@@ -51,7 +51,7 @@ flutter_bloc_boilerplate/
 ## Before run project, execute commands:
 - `flutter clean`
 - `flutter pub get`
-- `flutter pub run build_runner build` or `flutter pub run build_runner build --delete-conflicting-outputs`
+- `flutter build appbundle --release --no-sound-null-safety` 
 - `flutter run` (if needed)
 
 ## Conclusion
